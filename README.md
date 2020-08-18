@@ -1,4 +1,4 @@
-#Countdown solver
+# Countdown solver
 
 An algorithm to find a solution to the numbers round of 'countdown'.
 
