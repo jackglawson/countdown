@@ -165,6 +165,7 @@ def countdown(numbers, target):
     display_solution(quickest_solution)
 
 
-numbers = (75, 100, 50, 25, 10, 2)
-target = 317
-countdown(numbers, target)
+if __name__ == "__main__":
+    numbers = (75, 100, 50, 25, 10, 2)
+    target = 316
+    countdown(numbers, target)

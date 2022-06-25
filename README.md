@@ -4,6 +4,20 @@ An algorithm to find a solution to the numbers round of 'countdown'.
 
 A depth first search is used to visit all possible solutions.
 
+
+### Example output:
+
+```
+>> countdown((75, 100, 50, 25, 10, 2), 316)
+
+19 solutions found. One possible solution is:
+75 / 25 = 3
+100 + 2 = 102
+102 * 3 = 306
+10 + 306 = 316
+```
+
+
 ### Improvements to be made:
 
 1. Remove redundancy in solutions.
